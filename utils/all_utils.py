@@ -1,10 +1,9 @@
 import pandas as pd
 import numpy as np
+import joblib
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
-import joblib
 import os
-
 
 def prepare_data(df):
   X = df.drop("y", axis= 1)
